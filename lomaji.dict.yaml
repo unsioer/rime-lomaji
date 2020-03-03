@@ -1,0 +1,3186 @@
+---
+name: lomaji
+version: "2020.3.3"
+sort: by_weight #original
+use_preset_vocabulary: true
+...
+# 五度標調法
+˥	v5
+˦	v4
+˧	v3
+˨	v2
+˩	v1
+# 調符
+́	qq
+̀	ww
+̂	zz
+̌	xx
+̄	dd
+̍	ff
+# 字母
+a	a
+b	b
+c	c
+d	d
+e	e
+f	f
+g	g
+h	h
+i	i
+j	j
+k	k
+l	l
+m	m
+n	n
+o	o
+p	p
+q	q
+r	r
+s	s
+t	t
+u	u
+v	v
+w	w
+x	x
+y	y
+z	z
+-	-
+A	A
+B	B
+C	C
+D	D
+E	E
+F	F
+G	G
+H	H
+I	I
+J	J
+K	K
+L	L
+M	M
+N	N
+O	O
+P	P
+Q	Q
+R	R
+S	S
+T	T
+U	U
+V	V
+W	W
+X	X
+Y	Y
+Z	Z
+Ts	Ts
+ts	ts
+# Tsú-liû tuann-guân-im: a e i o oo u
+# Siann-huà-ūn: m ng
+á	aq
+à	aw
+â	az
+ǎ	ax
+ā	ad
+a̍	af
+a̍h	ahf
+Á	Aq
+À	Aw
+Â	Az
+Ǎ	Ax
+Ā	Ad
+A̍	Af
+A̍h	Ahf
+é	eq
+è	ew
+ê	ez
+ě	ex
+ē	ed
+e̍	ef
+e̍h	ehf
+É	Eq
+È	Ew
+Ê	Ez
+Ě	Ex
+Ē	Ed
+E̍	Ef
+E̍h	Ehf
+í	iq
+ì	iw
+î	iz
+ǐ	ix
+ī	id
+i̍	if
+i̍h	ihf
+Í	Iq
+Ì	Iw
+Î	Iz
+Ǐ	Ix
+Ī	Id
+I̍	If
+I̍h	Ihf
+ó	oq
+ò	ow
+ô	oz
+ǒ	ox
+ō	od
+o̍	of
+o̍h	ohf
+Ó	Oq
+Ò	Ow
+Ô	Oz
+Ǒ	Ox
+Ō	Od
+O̍	Of
+O̍h	Ohf
+óo	ooq
+òo	oow
+ôo	ooz
+ǒo	oox
+ōo	ood
+o̍o	oof
+o̍oh	oohf
+Oo	Oo
+Óo	Ooq
+Òo	Oow
+Ôo	Ooz
+Ǒo	Oox
+Ōo	Ood
+O̍o	Oof
+O̍oh	Oohf
+ú	uq
+ù	uw
+û	uz
+ǔ	ux
+ū	ud
+u̍	uf
+u̍h	uhf
+Ú	Uq
+Ù	Uw
+Û	Uz
+Ǔ	Ux
+Ū	Ud
+U̍	Uf
+U̍h	Uhf
+ḿ	mq
+m̀	mw
+m̂	mz
+m̌	mx
+m̄	md
+m̍	mf
+m̍h	mhf
+Ḿ	Mq
+M̀	Mw
+M̂	Mz
+M̌	Mx
+M̄	Md
+M̍	Mf
+M̍h	Mhf
+ń	nq
+ǹ	nw
+n̂	nz
+ň	nx
+n̄	nd
+n̍	nf
+n̍h	nhf
+ng	ng
+ńg	ngq
+ǹg	ngw
+n̂g	ngz
+ňg	ngx
+n̄g	ngd
+n̍g	ngf
+n̍gh	nghf
+Ń	Nq
+Ǹ	Nw
+N̂	Nz
+Ň	Nx
+N̄	Nd
+N̍	Nf
+Ng	Ng
+Ńg	Ngq
+Ǹg	Ngw
+N̂g	Ngz
+Ňg	Ngx
+N̄g	Ngd
+N̍g	Ngf
+N̍gh	Nghf
+# Tsuân-khiunn ti̍k-sû ūn-bó: ir er
+ir	ir
+ír	irq
+ìr	irw
+îr	irz
+ǐr	irx
+īr	ird
+i̍r	irf
+i̍rh	irhf
+Ir	Ir
+Ír	Irq
+Ìr	Irw
+Îr	Irz
+Ǐr	Irx
+Īr	Ird
+I̍r	Irf
+I̍rh	Irhf
+er	er
+ér	erq
+èr	erw
+êr	erz
+ěr	erx
+ēr	erd
+e̍r	erf
+e̍rh	erhf
+Er	Er
+Ér	Erq
+Èr	Erw
+Êr	Erz
+Ěr	Erx
+Ēr	Erd
+E̍r	Erf
+E̍rh	Erhf
+# Tsiang-khiunn ti̍k-sû ūn-bó: ee
+ee	ee
+ée	eeq
+èe	eew
+êe	eez
+ěe	eex
+ēe	eed
+e̍e	eef
+e̍eh	eehf
+Ee	Ee
+Ée	Eeq
+Èe	Eew
+Êe	Eez
+Ěe	Eex
+Ēe	Eed
+E̍e	Eef
+E̍eh	Eehf
+# Tiô-khiunn ti̍k-sû ūn-bó: ur
+ur	ur
+úr	urq
+ùr	urw
+ûr	urz
+ǔr	urx
+u̍r	urf
+u̍rh	urhf
+Ur	Ur
+Úr	Urq
+Ùr	Urw
+Ûr	Urz
+Ǔr	Urx
+U̍r	Urf
+U̍rh	Urhf
+# Tián-tûn-huà "o" ūn-bó: or
+or	or
+ór	orq
+òr	orw
+ôr	orz
+ǒr	orx
+ōr	ord
+o̍r	orf
+o̍rh	orhf
+Ór	Orq
+Òr	Orw
+Ôr	Orz
+Ǒr	Orx
+Ōr	Ord
+O̍r	Orf
+O̍rh	Orhf
+# Tsú-liû siang-guân-im: ai au
+ai	ai
+ái	aiq
+ài	aiw
+âi	aiz
+ǎi	aix
+āi	aid
+a̍ih	aihf
+Ai	Ai
+Ái	Aiq
+Ài	Aiw
+Âi	Aiz
+Ǎi	Aix
+Āi	Aid
+A̍i	Aif
+A̍ih	Aihf
+au	au
+áu	auq
+àu	auw
+âu	auz
+ǎu	aux
+āu	aud
+a̍uh	auhf
+Áu	Auq
+Àu	Auw
+Âu	Auz
+Ǎu	Aux
+Āu	Aud
+A̍u	Auf
+A̍uh	Auhf
+# Tsiang-khiunn te̍k-sû ūn-bó: ei
+ei	ei
+éi	eiq
+èi	eiw
+êi	eiz
+ěi	eix
+ēi	eid
+e̍ih	eihf
+# Tiô-thuà-khiunn te̍k-sû ūn-bó: eu
+eu	eu
+éu	euq
+èu	euw
+êu	euz
+ěu	eux
+ēu	eud
+e̍uh	euhf
+# Tiô-khiunn te̍k-sû ūn-bó: oi
+ói	oiq
+òi	oiw
+ôi	oiz
+ǒi	oix
+ōi	oid
+o̍ih	oihf
+# Tsiang-lâm, Tiô-tsiu te̍k-sû ūn-bó: ou
+óu	ouq
+òu	ouw
+ôu	ouz
+ǒu	oux
+ōu	oud
+o̍uh	ouhf
+ám	amq
+àm	amw
+âm	amz
+ǎm	amx
+ām	amd
+a̍p	apf
+óm	omq
+òm	omw
+ôm	omz
+ǒm	omx
+ōm	omd
+o̍p	opf
+ím	imq
+ìm	imw
+îm	imz
+ǐm	imx
+īm	imd
+i̍p	ipf
+án	anq
+àn	anw
+ân	anz
+ǎn	anx
+ān	and
+a̍t	atf
+ín	inq
+ìn	inw
+în	inz
+ǐn	inx
+īn	ind
+i̍t	itf
+ún	unq
+ùn	unw
+ûn	unz
+ǔn	unx
+ūn	und
+u̍t	utf
+áng	angq
+àng	angw
+âng	angz
+ǎng	angx
+āng	angd
+a̍k	akf
+éng	engq
+èng	engw
+êng	engz
+ěng	engx
+ēng	engd
+e̍k	ekf
+óng	ongq
+òng	ongw
+ông	ongz
+ǒng	ongx
+ōng	ongd
+o̍k	okf
+íng	ingq
+ìng	ingw
+îng	ingz
+ǐng	ingx
+īng	ingd
+i̍k	ikf
+ánn	annq
+ànn	annw
+ânn	annz
+ǎnn	annx
+ānn	annd
+a̍nnh	annhf
+énn	ennq
+ènn	ennw
+ênn	ennz
+ěnn	ennx
+ēnn	ennd
+e̍nnh	ennhf
+ínn	innq
+ìnn	innw
+înn	innz
+ǐnn	innx
+īnn	innd
+i̍nnh	innhf
+ónn	onnq
+ònn	onnw
+ônn	onnz
+ǒnn	onnx
+ōnn	onnd
+o̍nnh	onnhf
+únn	unnq
+ùnn	unnw
+ûnn	unnz
+ǔnn	unnx
+ūnn	unnd
+u̍nnh	unnhf
+áinn	ainnq
+àinn	ainnw
+âinn	ainnz
+ǎinn	ainnx
+āinn	ainnd
+a̍innh	ainnhf
+áunn	aunnq
+àunn	aunnw
+âunn	aunnz
+ǎunn	aunnx
+āunn	aunnd
+a̍unnh	aunnhf
+# Im-tsat
+ah
+aih
+ak
+am
+an
+ang
+ap
+at
+auh
+bâ
+bǎ
+bā
+bah
+ba̍h
+bai
+bái
+bâi
+bāi
+bak
+ba̍k
+ban
+bán
+bân
+bǎn
+bān
+bang
+báng
+bàng
+bâng
+bāng
+bat
+ba̍t
+báu
+bāu
+ba̍uh
+bé
+bê
+bē
+beh
+be̍h
+bér
+bêr
+běr
+bēr
+berh
+be̍rh
+bi
+bí
+bî
+bǐ
+bī
+bi̋
+bián
+biân
+biān
+bia̍t
+biáu
+biâu
+biāu
+bih
+bi̍h
+bi̍k
+bín
+bîn
+bǐn
+bīn
+bíng
+bîng
+bīng
+bió
+biô
+biō
+biór
+biôr
+biōr
+bi̍t
+biū
+bó
+bô
+bǒ
+bō
+boh
+bo̍h
+bok
+bo̍k
+bong
+bóng
+bòng
+bông
+bōng
+boo
+bóo
+bôo
+bōo
+bór
+bôr
+bōr
+bú
+bû
+bǔ
+bū
+buâ
+buah
+bua̍h
+buán
+buân
+bua̍t
+bué
+buê
+buě
+buē
+bueh
+bue̍h
+buh
+bui
+bún
+bùn
+bûn
+bǔn
+būn
+but
+bu̍t
+eh
+enn
+ere
+eré
+erê
+erē
+erh
+gâ
+gâi
+gāi
+ga̍k
+gám
+gâm
+gām
+gán
+gàn
+gân
+gān
+gāng
+gâu
+gè
+gê
+gē
+ge̍h
+gereh
+ge̍rh
+gí
+gî
+gī
+gia
+giâ
+giah
+gia̍h
+giám
+giâm
+giām
+gián
+giàn
+giân
+giān
+giang
+giáng
+giàng
+giǎng
+giāng
+giap
+gia̍p
+giat
+gia̍t
+giáu
+giàu
+giâu
+gi̍k
+gím
+gìm
+gîm
+gīm
+gín
+gîn
+gīn
+gíng
+gîng
+gīng
+gió
+giô
+giǒ
+giō
+gio̍h
+giok
+gio̍k
+gióng
+giôr
+giōr
+gír
+gîr
+gîrn
+gi̍t
+giú
+giû
+gô
+gǒ
+gō
+go̍k
+gông
+gōng
+gôo
+gǒo
+gōo
+gôr
+gōr
+gú
+gû
+gū
+guá
+guǎ
+guā
+guán
+guân
+guān
+gua̍t
+guē
+gueh
+gue̍h
+guî
+guī
+gún
+gûn
+gu̍t
+ha
+há
+hà
+hâ
+hā
+hah
+ha̍h
+hai
+hái
+hâi
+hāi
+haih
+ha̍ih
+hainn
+hàinn
+hâinn
+hainnh
+hak
+ha̍k
+ham
+hám
+hàm
+hâm
+hām
+han
+hán
+hàn
+hân
+hān
+hang
+hàng
+hâng
+hāng
+hánn
+hànn
+hānn
+hannh
+hap
+ha̍p
+hat
+ha̍t
+hau
+háu
+hàu
+hâu
+hǎu
+hāu
+ha̍unnh
+he
+hé
+hè
+hê
+hē
+heh
+hènn
+hēnn
+hennh
+her
+hér
+hèr
+hêr
+hi
+hí
+hì
+hî
+hǐ
+hī
+hia
+hiâ
+hiǎ
+hiā
+hiah
+hia̍h
+hiam
+hiám
+hiàm
+hiâm
+hian
+hián
+hiàn
+hiân
+hiān
+hiang
+hiáng
+hiàng
+hiann
+hiánn
+hiànn
+hiânn
+hiānn
+hiannh
+hiap
+hia̍p
+hiat
+hia̍t
+hiau
+hiáu
+hiâu
+hiauh
+hik
+hi̍k
+him
+hîm
+hin
+hîn
+hīn
+hing
+hìng
+hîng
+hǐng
+hīng
+hìnn
+hīnn
+hiô
+hiǒ
+hiō
+hioh
+hio̍h
+hiok
+hiong
+hióng
+hiòng
+hiông
+hionn
+hiooh
+hiōr
+hiorh
+hio̍rh
+hip
+hír
+hîr
+hīrn
+hit
+hiu
+hiú
+hiù
+hiû
+hiunn
+hm̂
+hmh
+hm̍h
+hng
+hn̂g
+hňg
+hn̄g
+hngh
+ho
+hó
+hò
+hô
+hǒ
+hō
+ho̍h
+hok
+ho̍k
+hong
+hóng
+hòng
+hông
+hōng
+honn
+hónn
+hònn
+honnh
+hoo
+hóo
+hòo
+hôo
+hǒo
+hōo
+hooh
+hop
+hór
+hôr
+hōr
+hu
+hú
+hù
+hû
+hǔ
+hū
+hua
+huà
+huâ
+huǎ
+huā
+huah
+hua̍h
+huâi
+huāi
+huâinn
+huan
+huán
+huàn
+huân
+huǎn
+huān
+huang
+huann
+huánn
+huânn
+huǎnn
+huānn
+huat
+hua̍t
+hue
+hué
+huè
+huê
+huě
+huē
+hueh
+huênn
+hui
+huí
+huì
+huî
+huī
+huih
+huinn
+huînn
+huīnn
+hun
+hún
+hùn
+hûn
+hūn
+hut
+hu̍t
+ia
+iá
+ià
+iâ
+iǎ
+iā
+iah
+ia̍h
+iam
+iám
+iàm
+iâm
+iām
+ian
+ián
+iàn
+iân
+iang
+iáng
+iâng
+iǎng
+iāng
+iann
+iánn
+iânn
+iānn
+iap
+ia̍p
+iat
+ia̍t
+iau
+iáu
+iàu
+iâu
+iāu
+iaunn
+ik
+im
+in
+ing
+inn
+io
+ió
+iô
+iō
+ioh
+io̍h
+iok
+io̍k
+iong
+ióng
+iòng
+iông
+iōng
+ionn
+iónn
+iônn
+iōnn
+ior
+iôr
+iorh
+io̍rh
+ip
+irh
+irn
+it
+iu
+iú
+iù
+iû
+iǔ
+iū
+iunn
+iúnn
+iûnn
+iǔnn
+iūnn
+jê
+jêr
+jí
+jî
+jī
+jia
+jiá
+jiah
+jiám
+jiâm
+jiân
+jiáng
+jiāng
+jia̍p
+jia̍t
+jiáu
+jiàu
+jiâu
+ji̍h
+jik
+jím
+jîm
+jīm
+jîn
+jīn
+jîng
+jínn
+jiō
+jiok
+jio̍k
+jióng
+jiông
+jiōng
+jiōr
+jip
+ji̍p
+ji̍t
+jiû
+jú
+jû
+jū
+juā
+jua̍h
+juán
+juê
+juē
+jūn
+ka
+ká
+kà
+kǎ
+kā
+kah
+kai
+kái
+kài
+kainn
+káinn
+kâinn
+kāinn
+kak
+ka̍k
+kam
+kám
+kàm
+kâm
+kām
+kan
+kán
+kàn
+kang
+káng
+kàng
+kâng
+kǎng
+kāng
+kann
+kánn
+kànn
+kânn
+kap
+kat
+kau
+káu
+kàu
+kâu
+kǎu
+kāu
+kauh
+ke
+ké
+kè
+kê
+kē
+keh
+ke̍h
+kenn
+kénn
+kènn
+kér
+kèr
+kere
+kerè
+kerê
+kerh
+kha
+khá
+khà
+khah
+kha̍h
+khai
+khái
+khài
+khainn
+kháinn
+khak
+kha̍k
+kham
+khám
+khàm
+khâm
+khan
+khán
+khàn
+khang
+kháng
+khàng
+khann
+khap
+kha̍p
+khat
+khau
+kháu
+khàu
+kha̍unnh
+khe
+khé
+khè
+khê
+kheh
+khe̍h
+khenn
+khennh
+khe̍nnh
+kher
+khèr
+khere
+kherè
+khereh
+kherh
+khi
+khí
+khì
+khî
+khǐ
+khī
+khia
+khiâ
+khiǎ
+khiā
+khiah
+khia̍h
+khia̍k
+khiam
+khiám
+khiàm
+khiâm
+khiǎm
+khiām
+khian
+khián
+khiàn
+khiân
+khiang
+khiàng
+khiann
+khiap
+khiat
+khia̍t
+khiau
+khiáu
+khiàu
+khih
+khik
+khim
+khím
+khîm
+khin
+khín
+khîn
+khing
+khíng
+khìng
+khîng
+khǐng
+khīng
+khinn
+khînn
+khió
+khiò
+khioh
+khiok
+khiong
+khióng
+khiông
+khionn
+khiōnn
+khiorh
+khip
+khi̍p
+khìr
+khîrn
+khit
+khi̍t
+khiu
+khiú
+khiû
+khiū
+khiunn
+khiūnn
+khng
+khǹg
+khngh
+kho
+khó
+khò
+khô
+khok
+kho̍k
+khong
+khóng
+khòng
+không
+khōng
+khónn
+khoo
+khóo
+khòo
+khór
+khòr
+khôr
+khu
+khù
+khû
+khǔ
+khū
+khua
+khuá
+khuà
+khuah
+khuài
+khuan
+khuán
+khuàn
+khuân
+khuann
+khuánn
+khuànn
+khuat
+khue
+khuè
+khuê
+khueh
+khuh
+khui
+khuí
+khuì
+khuìnn
+khun
+khún
+khùn
+khûn
+khut
+khu̍t
+ki
+kí
+kì
+kî
+kī
+kia
+kià
+kiâ
+kiǎ
+kiā
+kiah
+kia̍h
+kiam
+kiám
+kiàm
+kiâm
+kian
+kián
+kiàn
+kiān
+kiang
+kiann
+kiánn
+kiànn
+kiânn
+kiānn
+kiap
+kiat
+kia̍t
+kiau
+kiáu
+kiàu
+kiâu
+kiǎu
+kiāu
+kih
+kik
+ki̍k
+kim
+kím
+kìm
+kǐm
+kīm
+kin
+kín
+kìn
+kîn
+kīn
+king
+kíng
+kìng
+kîng
+kǐng
+kīng
+kinn
+kínn
+kìnn
+kînn
+kio
+kió
+kiò
+kiô
+kiǒ
+kiō
+kioh
+kiok
+kio̍k
+kiong
+kióng
+kiông
+kiōng
+kionn
+kiôr
+kiōr
+kip
+ki̍p
+kir
+kír
+kìr
+kirn
+kīrn
+kit
+kiu
+kiú
+kiù
+kiû
+kiū
+kiunn
+kng
+kńg
+kǹg
+ko
+kó
+kò
+kô
+kō
+koh
+kok
+ko̍k
+kong
+kóng
+kòng
+kông
+kônn
+koo
+kóo
+kòo
+kôo
+kōo
+kooh
+kop
+kor
+kór
+kôr
+ku
+kú
+kù
+kû
+kǔ
+kū
+kua
+kuá
+kuà
+kuā
+kuah
+kuai
+kuái
+kuài
+kuāi
+kuaih
+kuainn
+kuáinn
+kuâinn
+kuāinn
+kuainnh
+kua̍k
+kuan
+kuán
+kuàn
+kuân
+kuǎn
+kuān
+kuann
+kuánn
+kuânn
+kuǎnn
+kuānn
+kuat
+kue
+kué
+kuè
+kuê
+kueh
+kue̍h
+kui
+kuí
+kuì
+kuî
+kuǐ
+kuī
+kuih
+kuinn
+kuínn
+kuìnn
+kuīnn
+kun
+kún
+kùn
+kûn
+kǔn
+kūn
+kut
+ku̍t
+la
+lá
+lâ
+lā
+lah
+la̍h
+lai
+lâi
+lǎi
+lāi
+lak
+la̍k
+lam
+lám
+làm
+lâm
+lām
+lan
+lán
+lân
+lǎn
+lān
+lang
+láng
+làng
+lâng
+lāng
+lap
+la̍p
+la̍t
+láu
+làu
+lâu
+lǎu
+lāu
+la̍uh
+le
+lé
+lè
+lê
+lě
+lē
+leh
+le̍h
+ler
+lér
+lêr
+leré
+lerê
+lerē
+li
+lí
+lì
+lî
+lǐ
+lī
+lia
+liá
+liah
+lia̍h
+liam
+liám
+liàm
+liâm
+liām
+lian
+lián
+liàn
+liân
+liān
+liang
+liâng
+liāng
+liap
+lia̍p
+lia̍t
+liáu
+liàu
+liâu
+liāu
+lih
+li̍h
+lik
+li̍k
+lim
+lím
+lîm
+līm
+lin
+lín
+lìn
+lîn
+līn
+ling
+líng
+lìng
+lîng
+lǐng
+līng
+lió
+liò
+liô
+liǒ
+liō
+lio̍h
+lio̍k
+lióng
+liòng
+liông
+liōng
+lip
+li̍p
+lir
+lír
+lîr
+lǐr
+līr
+lit
+li̍t
+liu
+liú
+liù
+liû
+liū
+lo
+ló
+lò
+lô
+lō
+loh
+lo̍h
+lok
+lo̍k
+long
+lóng
+lòng
+lông
+lōng
+lóo
+lòo
+lôo
+lǒo
+lōo
+looh
+lop
+lor
+lór
+lòr
+lôr
+lo̍rh
+lu
+lú
+lù
+lû
+lū
+luâ
+luā
+luah
+lua̍h
+luāi
+lua̍ih
+luán
+luân
+luān
+lua̍t
+lué
+luê
+luě
+luē
+lue̍h
+luh
+lui
+luí
+luì
+luî
+luī
+lun
+lún
+lûn
+lǔn
+lūn
+lut
+lu̍t
+ma
+má
+mà
+mâ
+mǎ
+mā
+mah
+mai
+mái
+mài
+māi
+mau
+mâu
+māu
+mauh
+me
+mé
+mê
+mē
+meh
+me̍h
+mi
+mí
+mî
+mǐ
+mī
+miâ
+miā
+miau
+miâu
+miāu
+mih
+mi̍h
+mńg
+mn̂g
+mňg
+mn̄g
+mn̍gh
+moo
+móo
+môo
+mōo
+mooh
+mo̍oh
+mua
+muá
+muâ
+muā
+muâi
+muāi
+muê
+muē
+muí
+muî
+muī
+na
+ná
+nà
+nâ
+nǎ
+nā
+nah
+na̍h
+nai
+nái
+nâi
+nǎi
+nāi
+náu
+nāu
+nauh
+ne
+nê
+neh
+ngá
+ngái
+ngāi
+ngáu
+ngâu
+ngǎu
+ngāu
+ngauh
+ngé
+ngē
+ngeh
+nge̍h
+ngǐ
+ngī
+ngiâ
+ngiau
+ngiáu
+ngiàu
+ngia̍uh
+ngiú
+ngóo
+ngôo
+ngōo
+ngueh
+nguí
+ni
+ní
+nî
+nī
+niá
+niâ
+niā
+niau
+niáu
+niàu
+nih
+nió
+niô
+niō
+niú
+niû
+niū
+niuh
+nng
+nńg
+nǹg
+nn̂g
+nňg
+nn̄g
+nóo
+nôo
+nōo
+nuá
+nuà
+nuâ
+nuǎ
+nuā
+nuí
+nuì
+nuî
+nuī
+oh
+ok
+om
+ong
+onn
+ooh
+op
+orh
+pa
+pá
+pà
+pâ
+pā
+pah
+pai
+pái
+pài
+pâi
+pāi
+páinn
+pak
+pa̍k
+pan
+pán
+pân
+pǎn
+pān
+pang
+páng
+pàng
+pâng
+pāng
+pat
+pa̍t
+pau
+páu
+pàu
+pâu
+pāu
+pe
+pé
+pè
+pê
+pě
+pē
+peh
+pe̍h
+penn
+pènn
+pênn
+pēnn
+per
+pér
+pèr
+pêr
+pěr
+pēr
+pha
+phà
+phā
+phah
+phái
+phài
+pháinn
+phǎinn
+phāinn
+phak
+pha̍k
+phan
+phàn
+phang
+pháng
+phàng
+phâng
+phǎng
+phāng
+phann
+phànn
+phānn
+phat
+phau
+pháu
+phàu
+phâu
+phāu
+pha̍uh
+phe
+phé
+phè
+phê
+phē
+phe̍h
+phenn
+phênn
+phēnn
+pher
+phèr
+phêr
+phěr
+phēr
+phe̍rh
+phi
+phí
+phì
+phî
+phǐ
+phī
+phiah
+phia̍h
+phiak
+phia̍k
+phian
+phiàn
+phiân
+phiāng
+phiann
+phiánn
+phiânn
+phiat
+phiau
+phiáu
+phiàu
+phiâu
+phih
+phi̍h
+phik
+phín
+phìn
+phîn
+phīn
+phing
+phìng
+phîng
+phīng
+phinn
+phìnn
+phînn
+phīnn
+phiò
+phiô
+phiòr
+phiôr
+phit
+phngh
+pho
+phó
+phò
+phô
+phǒ
+phō
+phoh
+phok
+pho̍k
+phong
+phóng
+phòng
+phông
+phōng
+phoo
+phóo
+phòo
+phôo
+phǒo
+phōo
+phor
+phòr
+phôr
+phōr
+phorh
+phú
+phû
+phū
+phuà
+phuah
+phua̍h
+phuan
+phuàn
+phuân
+phuān
+phuann
+phuànn
+phuǎnn
+phuānn
+phuat
+phue
+phué
+phuè
+phuê
+phuě
+phuē
+phue̍h
+phuh
+phu̍h
+phuí
+phuì
+phun
+phún
+phùn
+phûn
+phut
+phu̍t
+pi
+pí
+pì
+pî
+pī
+piah
+piak
+pia̍k
+pian
+pián
+piàn
+piân
+piǎn
+piān
+piàng
+piann
+piánn
+piànn
+piânn
+piat
+pia̍t
+piau
+piáu
+pih
+pik
+pi̍k
+pin
+pín
+pìn
+pîn
+ping
+píng
+pìng
+pîng
+pīng
+pinn
+pínn
+pìnn
+pînn
+pǐnn
+pīnn
+pio
+pió
+piō
+piór
+pit
+pi̍t
+piu
+png
+pńg
+pňg
+pn̄g
+po
+pó
+pò
+pô
+pō
+poh
+po̍h
+pok
+po̍k
+póng
+pòng
+pông
+pǒng
+pōng
+poo
+póo
+pòo
+pôo
+pǒo
+pōo
+por
+pór
+pòr
+pôr
+po̍rh
+pu
+pú
+pù
+pû
+pǔ
+pū
+puà
+puah
+pua̍h
+puan
+puàn
+puân
+puān
+puann
+puánn
+puànn
+puânn
+puǎnn
+puānn
+pua̍nnh
+puat
+pua̍t
+pue
+pué
+puè
+puê
+puē
+pueh
+pue̍h
+puh
+puì
+puî
+puǐ
+puī
+pui̍h
+puinn
+puínn
+puīnn
+pun
+pún
+pùn
+pûn
+pūn
+put
+pu̍t
+sa
+sá
+sà
+sah
+sa̍h
+sai
+sái
+sài
+sâi
+sǎi
+sāi
+sak
+sam
+sám
+sàm
+sâm
+sām
+san
+sán
+sàn
+sang
+sáng
+sàng
+sann
+sánn
+sannh
+sap
+sat
+sau
+sàu
+se
+sé
+sè
+sê
+sē
+seh
+se̍h
+senn
+sènn
+sèr
+sere
+seré
+serè
+sereh
+serh
+se̍rh
+serm
+si
+sí
+sì
+sî
+sǐ
+sī
+sia
+siá
+sià
+siâ
+siǎ
+siā
+siah
+sia̍h
+siak
+siam
+siám
+siàm
+siâm
+siām
+sian
+sián
+siàn
+siân
+siǎn
+siān
+siang
+siàng
+siâng
+siāng
+siann
+siánn
+siànn
+siânn
+siǎnn
+siānn
+siannh
+siap
+sia̍p
+siat
+sia̍t
+siau
+siáu
+siàu
+siâu
+siāu
+sih
+si̍h
+sik
+si̍k
+sim
+sím
+sìm
+sîm
+sīm
+sin
+sín
+sìn
+sîn
+sīn
+sing
+síng
+sìng
+sîng
+sīng
+sinn
+sìnn
+sǐnn
+sīnn
+sinnh
+sio
+sió
+siò
+siô
+siō
+sioh
+sio̍h
+siok
+sio̍k
+siong
+sióng
+siòng
+siông
+siōng
+sionn
+siónn
+siònn
+siônn
+siōnn
+sior
+siór
+siôr
+sip
+si̍p
+sir
+sìr
+sîr
+sǐr
+sīr
+sit
+si̍t
+siu
+siú
+siù
+siû
+siǔ
+siū
+siunn
+siúnn
+siùnn
+siûnn
+siǔnn
+siūnn
+sng
+sńg
+sǹg
+sn̂g
+so
+só
+sò
+sô
+sō
+soh
+sok
+so̍k
+som
+song
+sóng
+sòng
+sông
+soo
+sóo
+sòo
+sor
+sór
+sòr
+sôr
+sorh
+su
+sú
+sù
+sû
+sū
+sua
+suá
+suà
+suā
+suah
+suai
+suǎinn
+suāinn
+suan
+suán
+suàn
+suân
+suǎn
+suān
+suann
+suánn
+suànn
+suat
+sue
+sué
+suè
+suê
+sueh
+suh
+sui
+suí
+suì
+suî
+suǐ
+suī
+suinn
+suínn
+suìnn
+sun
+sún
+sùn
+sûn
+sūn
+sut
+su̍t
+ta
+tá
+tà
+tā
+tah
+ta̍h
+tai
+tái
+tài
+tâi
+tǎi
+tāi
+táinn
+tāinn
+tak
+ta̍k
+tam
+tám
+tàm
+tâm
+tām
+tan
+tán
+tàn
+tân
+tān
+tang
+táng
+tàng
+tâng
+tǎng
+tāng
+tann
+tánn
+tànn
+tânn
+tānn
+tap
+ta̍p
+ta̍t
+tau
+táu
+tàu
+tâu
+tǎu
+tāu
+tauh
+ta̍uh
+te
+té
+tè
+tê
+tě
+tē
+teh
+tenn
+tènn
+tēnn
+ter
+tér
+tèr
+těr
+tēr
+teré
+terê
+terē
+terh
+thà
+thah
+tha̍h
+thai
+thái
+thài
+thâi
+thāi
+thak
+tha̍k
+tham
+thàm
+thâm
+thām
+than
+thán
+thàn
+thân
+thang
+tháng
+thàng
+thâng
+thāng
+thann
+thánn
+thānn
+thap
+that
+thau
+tháu
+thàu
+thâu
+thǎu
+thāu
+the
+thé
+thè
+thê
+thē
+theh
+the̍h
+thenn
+thènn
+ther
+thèr
+therè
+thi
+thí
+thì
+thî
+thī
+thiah
+thiam
+thiám
+thiām
+thian
+thián
+thiann
+thiànn
+thiânn
+thiānn
+thiap
+thia̍p
+thiat
+thiau
+thiáu
+thiàu
+thiâu
+thiāu
+thih
+thi̍h
+thik
+thi̍k
+thim
+thìm
+thîn
+thīn
+thing
+thíng
+thìng
+thîng
+thinn
+thìnn
+thǐnn
+thīnn
+thio
+thiò
+thiô
+thiok
+thiong
+thióng
+thiòng
+thiông
+thiòr
+thiôr
+thîr
+thit
+thiu
+thiú
+thiúnn
+thng
+thǹg
+thn̂g
+thňg
+thn̄g
+tho
+thó
+thò
+thô
+thoh
+tho̍h
+thok
+tho̍k
+thong
+thóng
+thòng
+thōng
+thóo
+thòo
+thôo
+thór
+thôr
+thú
+thua
+thuǎ
+thuā
+thuah
+thuan
+thuân
+thuann
+thuánn
+thuànn
+thuat
+thué
+thuè
+thueh
+thue̍h
+thuh
+thui
+thuí
+thuì
+thuî
+thuìnn
+thuînn
+thuīnn
+thun
+thún
+thûn
+thūn
+thut
+thu̍t
+ti
+tí
+tì
+tî
+tǐ
+tī
+tia
+tiah
+tia̍h
+tiak
+tia̍k
+tiam
+tiám
+tiàm
+tiâm
+tiām
+tian
+tián
+tiân
+tiān
+tiâng
+tiánn
+tiànn
+tiânn
+tiānn
+tiap
+tia̍p
+tiat
+tia̍t
+tiau
+tiàu
+tiâu
+tiāu
+tih
+ti̍h
+tik
+ti̍k
+tìm
+tîm
+tīm
+tin
+tín
+tìn
+tîn
+tǐn
+tīn
+ting
+tíng
+tìng
+tîng
+tǐng
+tīng
+tinn
+tìnn
+tînn
+tǐnn
+tīnn
+ti̍nnh
+tió
+tiò
+tiô
+tiō
+tioh
+tio̍h
+tiok
+tio̍k
+tiong
+tióng
+tiòng
+tiông
+tiōng
+tionn
+tiónn
+tiònn
+tiônn
+tiōnn
+tiòr
+tio̍rh
+tir
+tîr
+tǐr
+tīr
+tit
+ti̍t
+tiu
+tiú
+tiù
+tiû
+tiū
+tiuh
+tiunn
+tiúnn
+tiùnn
+tiûnn
+tiǔnn
+tiūnn
+tng
+tńg
+tǹg
+tn̂g
+tňg
+tn̄g
+to
+tó
+tò
+tô
+tō
+toh
+to̍h
+tok
+to̍k
+tôm
+tong
+tóng
+tòng
+tông
+tǒng
+tōng
+too
+tóo
+tòo
+tôo
+tǒo
+tōo
+tooh
+tor
+tór
+tòr
+tôr
+torh
+to̍rh
+tsa
+tsá
+tsà
+tsā
+tsah
+tsa̍h
+tsai
+tsái
+tsài
+tsâi
+tsǎi
+tsāi
+tsáinn
+tsâinn
+tsak
+tsa̍k
+tsam
+tsám
+tsàm
+tsǎm
+tsām
+tsan
+tsán
+tsàn
+tsân
+tsān
+tsang
+tsáng
+tsàng
+tsâng
+tsánn
+tsànn
+tsānn
+tsap
+tsa̍p
+tsat
+tsa̍t
+tsau
+tsáu
+tsàu
+tsâu
+tsǎu
+tsāu
+tse
+tsé
+tsè
+tsê
+tsē
+tseh
+tse̍h
+tsenn
+tsénn
+tsènn
+tsênn
+tsēnn
+tser
+tsèr
+tsěr
+tsēr
+tserè
+tserê
+tserē
+tsereh
+tse̍rh
+tsha
+tshá
+tshâ
+tshā
+tshah
+tshai
+tshái
+tshài
+tshâi
+tshāi
+tsháinn
+tsha̍k
+tsham
+tshám
+tshàm
+tshâm
+tshan
+tshán
+tshàn
+tshân
+tshang
+tsháng
+tshàng
+tshànn
+tshānn
+tshap
+tsha̍p
+tshat
+tsha̍t
+tshau
+tsháu
+tshàu
+tshâu
+tsha̍uh
+tshe
+tshé
+tshè
+tshê
+tshē
+tsheh
+tshe̍h
+tshenn
+tshénn
+tshènn
+tsher
+tshér
+tshèr
+tshêr
+tshěr
+tshēr
+tshere
+tsherè
+tshereh
+tshi
+tshí
+tshì
+tshî
+tshǐ
+tshī
+tshia
+tshiâ
+tshiah
+tshia̍k
+tshiam
+tshiám
+tshiàm
+tshian
+tshián
+tshiàn
+tshiân
+tshiang
+tshiáng
+tshiàng
+tshiâng
+tshiāng
+tshiánn
+tshiànn
+tshiânn
+tshiap
+tshiat
+tshiau
+tshiàu
+tshiâu
+tshih
+tshi̍h
+tshik
+tshi̍k
+tshim
+tshím
+tshìm
+tshîm
+tshin
+tshìn
+tshing
+tshíng
+tshìng
+tshîng
+tshǐng
+tshīng
+tshinn
+tshínn
+tshìnn
+tshînn
+tshio
+tshiò
+tshiō
+tshioh
+tshio̍h
+tshiok
+tshio̍k
+tshiong
+tshióng
+tshiòng
+tshiông
+tshiōng
+tshionn
+tshiónn
+tshiònn
+tshiônn
+tshiōnn
+tshior
+tshiòr
+tshiorh
+tshio̍rh
+tship
+tshir
+tshír
+tshìr
+tshit
+tshiu
+tshiú
+tshiû
+tshiǔ
+tshiū
+tshiunn
+tshiúnn
+tshiùnn
+tshiûnn
+tshiǔnn
+tshiūnn
+tshng
+tshńg
+tshǹg
+tshn̂g
+tsho
+tshó
+tshò
+tshoh
+tsho̍h
+tshok
+tsho̍k
+tshong
+tshóng
+tshòng
+tshông
+tshoo
+tshóo
+tshòo
+tshor
+tshór
+tshòr
+tshorh
+tshu
+tshú
+tshù
+tshû
+tshǔ
+tshū
+tshuà
+tshuǎ
+tshuā
+tshuah
+tshua̍h
+tshuan
+tshuán
+tshuàn
+tshuân
+tshuàng
+tshuann
+tshuànn
+tshue
+tshué
+tshuè
+tshuê
+tshuē
+tshueh
+tshuh
+tshui
+tshuí
+tshuì
+tshuinn
+tshun
+tshún
+tshùn
+tshûn
+tshūn
+tshut
+tsi
+tsí
+tsì
+tsî
+tsī
+tsia
+tsiá
+tsià
+tsiâ
+tsiā
+tsiah
+tsia̍h
+tsiam
+tsiàm
+tsiâm
+tsiām
+tsian
+tsián
+tsiàn
+tsiân
+tsiān
+tsiang
+tsiáng
+tsiàng
+tsiāng
+tsiann
+tsiánn
+tsiànn
+tsiânn
+tsiānn
+tsiap
+tsia̍p
+tsiat
+tsia̍t
+tsiau
+tsiáu
+tsiàu
+tsiâu
+tsih
+tsi̍h
+tsik
+tsi̍k
+tsim
+tsím
+tsìm
+tsîm
+tsin
+tsín
+tsìn
+tsîn
+tsīn
+tsing
+tsíng
+tsìng
+tsîng
+tsīng
+tsinn
+tsínn
+tsìnn
+tsînn
+tsǐnn
+tsīnn
+tsio
+tsió
+tsiò
+tsiô
+tsioh
+tsio̍h
+tsiok
+tsio̍k
+tsiong
+tsióng
+tsiòng
+tsiông
+tsiōng
+tsionn
+tsiónn
+tsiònn
+tsiōnn
+tsior
+tsiór
+tsiòr
+tsio̍rh
+tsip
+tsi̍p
+tsir
+tsír
+tsìr
+tsîr
+tsǐr
+tsīr
+tsit
+tsi̍t
+tsiu
+tsiú
+tsiù
+tsiū
+tsiuh
+tsiunn
+tsiúnn
+tsiùnn
+tsiûnn
+tsiǔnn
+tsiūnn
+tsng
+tsńg
+tsǹg
+tsn̂g
+tsňg
+tsn̄g
+tso
+tsó
+tsò
+tsô
+tsō
+tsoh
+tso̍h
+tsok
+tso̍k
+tsong
+tsóng
+tsòng
+tsông
+tsōng
+tsoo
+tsóo
+tsòo
+tsôo
+tsōo
+tsór
+tsòr
+tsôr
+tsorh
+tso̍rh
+tsu
+tsú
+tsù
+tsû
+tsū
+tsű
+tsuá
+tsuâ
+tsuǎ
+tsuā
+tsuah
+tsua̍h
+tsuāinn
+tsuan
+tsuán
+tsuàn
+tsuân
+tsuǎn
+tsuān
+tsuann
+tsuánn
+tsuànn
+tsuânn
+tsuānn
+tsuat
+tsua̍t
+tsuè
+tsuê
+tsuě
+tsuē
+tsueh
+tsue̍h
+tsuh
+tsui
+tsuí
+tsuì
+tsuî
+tsuī
+tsuinn
+tsuínn
+tsuìnn
+tsuînn
+tsuīnn
+tsun
+tsún
+tsùn
+tsûn
+tsǔn
+tsūn
+tsut
+tsu̍t
+tu
+tú
+tù
+tû
+tū
+tuà
+tuǎ
+tuā
+tuah
+tua̍h
+tuan
+tuán
+tuàn
+tuân
+tuān
+tuann
+tuànn
+tuânn
+tuǎnn
+tuānn
+tuat
+tua̍t
+tué
+tuè
+tuê
+tuě
+tuē
+tuh
+tu̍h
+tui
+tuì
+tuî
+tuǐ
+tuī
+tuínn
+tuìnn
+tuīnn
+tun
+tún
+tùn
+tûn
+tūn
+tut
+tu̍t
+ua
+uá
+uâ
+ua̍h
+uai
+uaih
+uáinn
+uāinn
+uainnh
+ua̍innh
+ua̋k
+uan
+uán
+uàn
+uân
+uān
+uang
+uann
+uánn
+uànn
+uānn
+uat
+ua̍t
+ue
+ué
+uè
+uê
+uě
+uē
+ueh
+ue̍h
+uh
+ui
+uí
+uì
+uî
+uī
+uih
+ui̍h
+uinn
+uínn
+uînn
+un
+ut

@@ -1,2 +1,14 @@
-# rime-lomaji
- Rime Lô-má-jī su-ji̍p hong-àn
+<div lang="nan-Hant">
+
+# Rime Lô-má-jī（羅馬字）
+
+`🚧 Iáu tī siu-kái.`
+
+Rime<ruby>閩南語<rt>Bân-lâm-gú</rt></ruby><ruby>羅馬字<rt>Lô-ma-jī</rt></ruby><ruby>輸入<rt>su-ji̍p</rt></ruby><ruby>方案<rt>hong-àn</rt></ruby>。
+
+Bo̍k-tsiân tsi-tshî **Tâi-lô**.
+
+Mā tsi-tshî su-ji̍p **Tâi-lô** hiān-sī **Pe̍h-ōe-jī**.
+
+</div>
+

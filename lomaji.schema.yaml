@@ -1,0 +1,65 @@
+#Rime Schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+
+schema:
+  schema_id: lomaji
+  name: Lô-má-jī
+  version: "2019.7.31"
+  author: "Enatsu"
+  description: |
+    (Bô ki-su̍t hâm-liōng)
+    Rime Bân-lâm-gú Lô-má-jī su-ji̍p hong-àn.
+  
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ LMJ, English ]
+  - name: poj
+    states: [ TL, POJ ]
+  
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+  filters:
+    - simplifier@poj
+
+#menu:
+  #alternative_select_keys: "67890"
+  #page_size: 5
+
+speller:
+  alphabet: 'QWERTYUIOPASDFGHJKLZXCVBNMzyxwvutsrqponmlkjihgfedcba-'
+  initials: QWERTYUIOPASDFGHJKLZXCVBNMzyxwvutsrqponmlkjihgfedcba- 
+  algebra:
+    - derive/([A-Z])/v\L\1\E/
+    - derive/\-/y/
+    #- derive/ts/ch/
+
+translator:
+  dictionary: lomaji
+
+poj:
+  opencc_config: tl2poj.json
+  option_name: poj
+  tips: all
+
+style:
+  font_face: Segoe UI
