@@ -6,7 +6,7 @@
 schema:
   schema_id: lomaji
   name: Lô-má-jī
-  version: "2019.7.31"
+  version: "2020.3.4"
   author: "Enatsu"
   description: |
     (Bô ki-su̍t hâm-liōng)
@@ -41,17 +41,31 @@ engine:
   filters:
     - simplifier@poj
 
-#menu:
+menu:
   #alternative_select_keys: "67890"
-  #page_size: 5
+  page_size: 8
 
 speller:
   alphabet: 'QWERTYUIOPASDFGHJKLZXCVBNMzyxwvutsrqponmlkjihgfedcba-'
-  initials: QWERTYUIOPASDFGHJKLZXCVBNMzyxwvutsrqponmlkjihgfedcba- 
+  initials: QWERTYUIOPASDFGHJKLZXCVBNMzyxwvutsrqponmlkjihgfedcba-
   algebra:
+    - derive/([A-Z])/\L\1\E/
+    - xform/(.*)1/$1/
+    - xform/(.*)4/$1/
+    - erase/\s/
+    - derive/([2-9])//
+    - derive/(\-)*//
+    - xform/2/q/
+    - xform/3/w/
+    - xform/5/z/
+    - xform/6/x/
+    - xform/7/d/
+    - xform/8/f/
+    - xform/9/v/
     - derive/([A-Z])/v\L\1\E/
+    #- derive/(.+[A-Z])/\L\1\E/
     - derive/\-/y/
-    #- derive/ts/ch/
+    
 
 translator:
   dictionary: lomaji
@@ -63,3 +77,15 @@ poj:
 
 style:
   font_face: Segoe UI
+
+#punctuator:
+#  import_preset: symbols
+
+#key_binder:
+#  import_preset: default
+
+#recognizer:
+#  import_preset: default
+#  patterns:
+#    punct: '^/([0-9]0?|[A-Za-z]+)$'
+#    reverse_lookup: "`[a-z]*'?$"
