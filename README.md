@@ -8,7 +8,7 @@ Rime<ruby>閩南語<rt>Bân-lâm-gú</rt></ruby><ruby>羅馬字<rt>Lô-má-jī</
 
 Bo̍k-tsiân tsi-tshî **Tâi-lô**.
 
-Mā tsi-tshî su-ji̍p **Tâi-lô** hiān-sī **Pe̍h-ōe-jī**.
+Mā tsi-tshî su-ji̍p **Tâi-lô** hián-sī **Pe̍h-ōe-jī**.
 
 </div>
 
