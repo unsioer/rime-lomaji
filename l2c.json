@@ -1,0 +1,16 @@
+{
+	"name": "Lower to Capital",
+	"segmentation": {
+	  "type": "mmseg",
+	  "dict": {
+		"type": "text",
+		"file": "l2c.txt"
+	  }
+	},
+	"conversion_chain": [{
+	  "dict": {
+		"type": "text",
+		"file": "l2c.txt"
+	  }
+	}]
+  }

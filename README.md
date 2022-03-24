@@ -11,4 +11,3 @@ Bo̍k-tsiân tsi-tshî **Tâi-lô**.
 Mā tsi-tshî su-ji̍p **Tâi-lô** hián-sī **Pe̍h-ōe-jī**.
 
 </div>
-
