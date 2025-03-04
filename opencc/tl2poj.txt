@@ -38,6 +38,11 @@ uà	òa
 uâ	ôa
 uǎ	ǒa
 ua̍	oa̍
+uánn	óaⁿ
+uànn	òaⁿ
+uânn	ôaⁿ
+uǎnn	ǒaⁿ
+ua̍nn	oa̍ⁿ
 uán	oán
 uàn	oàn
 uân	oân

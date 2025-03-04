@@ -1,16 +1,16 @@
 {
-	"name": "Lower to Capital",
+	"name": "Lower Case to Upper Case",
 	"segmentation": {
 	  "type": "mmseg",
 	  "dict": {
 		"type": "text",
-		"file": "l2c.txt"
+		"file": "l2u.txt"
 	  }
 	},
 	"conversion_chain": [{
 	  "dict": {
 		"type": "text",
-		"file": "l2c.txt"
+		"file": "l2u.txt"
 	  }
 	}]
   }

@@ -6,7 +6,7 @@
 schema:
   schema_id: lomaji
   name: Lô-má-jī
-  version: "2023.4.17"
+  version: "2025.3.5"
   author: "Enatsu"
   description: |
     (Bô ki-su̍t hâm-liōng)
@@ -75,6 +75,6 @@ poj:
   tips: all
 
 capital:
-  opencc_config: l2c.json
+  opencc_config: l2u.json
   option_name: capital
   tips: all
