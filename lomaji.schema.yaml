@@ -6,7 +6,7 @@
 schema:
   schema_id: lomaji
   name: Lô-má-jī
-  version: "2025.3.5"
+  version: "2025.3.15"
   author: "Enatsu"
   description: |
     (Bô ki-su̍t hâm-liōng)
@@ -64,6 +64,12 @@ speller:
     - xform/4/f/
     - xform/9/v/
     - derive/\-/y/
+    - derive/ua/oa/
+    - derive/ue/oe/
+    - derive/ts/ch/
+    - derive/Ua/Oa/
+    - derive/Ue/Oe/
+    - derive/Ts/Ch/
     
 
 translator:
