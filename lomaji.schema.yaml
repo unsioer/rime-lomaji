@@ -18,11 +18,15 @@ switches:
     states: [ LMJ, English ]
   - name: poj
     states: [ TL, POJ ]
+  - name: defer_space
+    reset: 1
+    states: [ 毋補閬空, 自動閬空 ]
   - name: capital
     states: [ Suè, TUĀ ]
   
 engine:
   processors:
+    - lua_processor@*lomaji_spacing
     - ascii_composer
     - recognizer
     - key_binder
@@ -44,6 +48,7 @@ engine:
     - lua_filter@*lomaji_filter
     - simplifier@poj
     - simplifier@capital
+    - lua_filter@*lomaji_spacing*filter
 
 menu:
   alternative_select_keys: "qwzxdf"

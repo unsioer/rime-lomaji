@@ -1,13 +1,27 @@
-<div lang="nan-Hant">
+# rime-lomaji
 
-# Rime Lô-má-jī（羅馬字）
+Rime Bân-lâm-gú Lô-má-jī su-ji̍p hong-àn.  
+Rime 閩南語羅馬字輸入方案。
 
-`🚧 Iáu tī siu-kái.`
+Bo̍k-tsiân tsi-tshî/tsi-uān **Tâi-lô** kah **Pe̍h-ōe-jī**.  
+目前支持/支援**臺羅**佮**白話字**。
 
-Rime<ruby>閩南語<rt>Bân-lâm-gú</rt></ruby><ruby>羅馬字<rt>Lô-má-jī</rt></ruby><ruby>輸入<rt>su-ji̍p</rt></ruby><ruby>方案<rt>hong-àn</rt></ruby>。
+## 特色
 
-Bo̍k-tsiân tsi-tshî/tsi-uān **Tâi-lô**.
+* 自動補充連字符 `-`
+* 自動補充閬空
 
-Mā tsi-tshî/tsi-uān su-ji̍p **Tâi-lô** hián-sī **Pe̍h-ōe-jī**.
+## 輸入方案
 
-</div>
+下底兩款輸入方案（schema）共用 `lomaji` 詞典佮 OpenCC 轉換、Lua 跤本（script）。
+
+| schema | prism | 聲調輸入 |
+| --- | --- | --- |
+| `lomaji` | `lomaji_nature` | `1`–`9` 直透指定聲調，`qwzxdf` 選字 |
+| `lomaji_26` | `lomaji_26` | `q`＝2、`w`＝3、`z`＝5、`x`＝6、`d`＝7／8、`f`＝1／4、`v`＝9 |
+
+## TODO
+
+* 詞頻控制
+* 漢字提示
+* 漳泉腔口語詞
