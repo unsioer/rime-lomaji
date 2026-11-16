@@ -70,7 +70,7 @@ uah	oah
 uâ	ôa
 uǎ	ǒa
 uā	ōa
-ua̍h	o̍ah
+ua̍h	oa̍h
 Ua	Oa
 Uá	Óa
 Uà	Òa
@@ -78,7 +78,7 @@ Uah	Oah
 Uâ	Ôa
 Uǎ	Ǒa
 Uā	Ōa
-Ua̍h	O̍ah
+Ua̍h	Oa̍h
 uann	oaⁿ
 uánn	óaⁿ
 uànn	òaⁿ

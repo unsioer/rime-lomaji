@@ -6,11 +6,11 @@
 schema:
   schema_id: lomaji
   name: Lô-má-jī
-  version: "2025.3.15"
+  version: "2026.11.16"
   author: "Enatsu"
   description: |
-    (Bô ki-su̍t hâm-liōng)
     Rime Bân-lâm-gú Lô-má-jī su-ji̍p hong-àn.
+    Iōng q, w, z, x, d kah f suán jī.
   
 switches:
   - name: ascii_mode
@@ -41,28 +41,22 @@ engine:
     - punct_translator
     - r10n_translator
   filters:
+    - lua_filter@*lomaji_filter
     - simplifier@poj
     - simplifier@capital
 
 menu:
-  page_size: 8
+  alternative_select_keys: "qwzxdf"
+  alternative_select_labels: [ q, w, z, x, d, f ]
+  page_size: 6
 
 speller:
-  alphabet: 'QWERTYUIOPASDFGHJKLZXCVBNMzyxwvutsrqponmlkjihgfedcba-'
-  initials: QWERTYUIOPASDFGHJKLZXCVBNMzyxwvutsrqponmlkjihgfedcba-
+  alphabet: 'QWERTYUIOPASDFGHJKLZXCVBNMyvutsrponmlkjihgecba-123456789'
+  initials: QWERTYUIOPASDFGHJKLZXCVBNMyvutsrponmlkjihgecba-
   algebra:
     - erase/\s/
     - derive/(\-)*//
     - derive/([1-9])//
-    - xform/2/q/
-    - xform/3/w/
-    - xform/5/z/
-    - xform/6/x/
-    - xform/7/d/
-    - xform/8/d/
-    - xform/1/f/
-    - xform/4/f/
-    - xform/9/v/
     - derive/\-/y/
     - derive/ua/oa/
     - derive/ue/oe/
@@ -74,6 +68,7 @@ speller:
 
 translator:
   dictionary: lomaji
+  prism: lomaji_nature
 
 poj:
   opencc_config: tl2poj.json
