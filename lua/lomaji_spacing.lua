@@ -39,7 +39,8 @@ function M.init(env)
   local ctx = env.engine.context
   env.commit_connection = ctx.commit_notifier:connect(function(context)
     local text = context:get_commit_text()
-    local active = enabled(context) and (romanized(text) or ends_punctuation(text))
+    local active = enabled(context) and text:sub(-1) ~= "-"
+      and (romanized(text) or ends_punctuation(text))
     context:set_property("lomaji_space_prefix", "")
     env.pending_space = active
   end)
@@ -77,6 +78,10 @@ function M.func(key, env)
   end
   local cp = key.keycode
   if cp >= 0x1000000 then cp = cp - 0x1000000 end
+  if cp == 45 then
+    env.pending_space = false
+    return 2
+  end
   -- Literal punctuation can pass directly to the application without a commit
   -- notification. Remember it here as well as in the commit callback.
   if (cp < 0xFF00 or key.keycode >= 0x1000000)
